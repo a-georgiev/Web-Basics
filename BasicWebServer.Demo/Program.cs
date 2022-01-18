@@ -7,7 +7,7 @@ namespace BasicWebServer.Demo
     {
         static void Main(string[] args)
         {
-            var server = new HttpServer("172.26.32.1", 8080);
+            var server = new HttpServer("", 8080);
             server.Start();
         }
     }
