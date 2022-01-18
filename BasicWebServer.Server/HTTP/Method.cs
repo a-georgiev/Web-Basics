@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BasicWebServer.Server.HTTP
+﻿namespace BasicWebServer.Server.HTTP
 {
-    class Request
+    public enum Method
     {
+        Get,
+        Post,
+        Put,
+        Delete
     }
 }

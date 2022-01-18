@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BasicWebServer.Server;
+using System;
 
 namespace BasicWebServer.Demo
 {
@@ -6,7 +7,8 @@ namespace BasicWebServer.Demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var server = new HttpServer("172.26.32.1", 8080);
+            server.Start();
         }
     }
 }
