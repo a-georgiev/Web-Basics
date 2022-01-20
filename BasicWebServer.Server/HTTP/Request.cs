@@ -36,12 +36,12 @@ namespace BasicWebServer.Server.HTTP
             var headers = new HeaderCollection();
             foreach(var line in headerLines)
             {
-                if(line == String.Empty)
+                if(line == string.Empty)
                 {
                     break;
                 }
 
-                var headerParts = line.Split(':',2);
+                var headerParts = line.Split(":",2);
 
                 if(headerParts.Length != 2)
                 {
