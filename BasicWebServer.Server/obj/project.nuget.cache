@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eednFfJOaIBEd9q+BoiilL0A0gzOPTygFW5psXZFGoG/HG5Vrph0+Nv6M4o0ZZ/LaevUApGVjYCa0mpb9rv/HQ==",
+  "dgSpecHash": "JuqequGxvP3MYxFJnMWJoHdThle7E/6fiXfupmwgtMHXRWTP/b4QtWDAO3RwEkD+NTrWJ1WUXVnMLtnvD1BUAw==",
   "success": true,
-  "projectFilePath": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+  "projectFilePath": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

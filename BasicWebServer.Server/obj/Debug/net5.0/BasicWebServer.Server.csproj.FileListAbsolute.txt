@@ -10,3 +10,15 @@ D:\Courses\C# Web Basics - януари 2022\Web-Basics\BasicWebServer.Server\bi
 D:\Courses\C# Web Basics - януари 2022\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.dll
 D:\Courses\C# Web Basics - януари 2022\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\ref\BasicWebServer.Server.dll
 D:\Courses\C# Web Basics - януари 2022\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.pdb
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\bin\Debug\net5.0\BasicWebServer.Server.deps.json
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\bin\Debug\net5.0\BasicWebServer.Server.dll
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\bin\Debug\net5.0\ref\BasicWebServer.Server.dll
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\bin\Debug\net5.0\BasicWebServer.Server.pdb
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.csproj.AssemblyReference.cache
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.AssemblyInfoInputs.cache
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.AssemblyInfo.cs
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.csproj.CoreCompileInputs.cache
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.dll
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\ref\BasicWebServer.Server.dll
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.pdb
