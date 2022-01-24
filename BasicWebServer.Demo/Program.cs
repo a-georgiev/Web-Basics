@@ -16,7 +16,7 @@ namespace BasicWebServer.Demo
         static void Main()
             => new HttpServer(routes => routes
                 .MapGet("/", new TextResponse("Text response from the server."))
-                .MapGet("/Redirect", new RedirectResponse("https://github.com/"))
+                .MapGet("/Redirect", new RedirectResponse("https://stackoverflow.com/"))
                 .MapGet("/HTML", new HtmlResponse(Program.HtmlForm))
                 .MapPost("/HTML", new TextResponse("", Program.AddFormDataAction)))
                 .Start();
