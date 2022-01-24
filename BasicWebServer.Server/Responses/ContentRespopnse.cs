@@ -1,17 +1,20 @@
 ﻿using BasicWebServer.Server.Common;
 using BasicWebServer.Server.HTTP;
+using System;
 using System.Text;
 
 namespace BasicWebServer.Server.Responses
 {
     public class ContentRespopnse: Response
     {
-        public ContentRespopnse(string content, string contentType)
-            :base(StatusCode.OK)
+        public ContentRespopnse(string content, string contentType,
+            Action<Request, Response> preRenderAction = null)
+                :base(StatusCode.OK)
         {
             Guard.AginstNull(content);
             Guard.AginstNull(contentType);
 
+            this.PreRenderAction = preRenderAction;
             this.Headers.Add(Header.ContentType, contentType);
             this.Body = content;
         }
