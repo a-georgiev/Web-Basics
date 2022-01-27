@@ -17,3 +17,11 @@ D:\Courses\C# Web Basics - януари 2022\Web-Basics\BasicWebServer.Demo\obj\
 D:\Courses\C# Web Basics - януари 2022\Web-Basics\BasicWebServer.Demo\obj\Debug\net5.0\ref\BasicWebServer.Demo.dll
 D:\Courses\C# Web Basics - януари 2022\Web-Basics\BasicWebServer.Demo\obj\Debug\net5.0\BasicWebServer.Demo.pdb
 D:\Courses\C# Web Basics - януари 2022\Web-Basics\BasicWebServer.Demo\obj\Debug\net5.0\BasicWebServer.Demo.genruntimeconfig.cache
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Demo\obj\Debug\net5.0\BasicWebServer.Demo.csproj.AssemblyReference.cache
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Demo\obj\Debug\net5.0\BasicWebServer.Demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Demo\obj\Debug\net5.0\BasicWebServer.Demo.AssemblyInfoInputs.cache
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Demo\obj\Debug\net5.0\BasicWebServer.Demo.AssemblyInfo.cs
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Demo\obj\Debug\net5.0\BasicWebServer.Demo.csproj.CoreCompileInputs.cache
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Demo\obj\Debug\net5.0\BasicWebServer.Demo.dll
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Demo\obj\Debug\net5.0\ref\BasicWebServer.Demo.dll
+D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Demo\obj\Debug\net5.0\BasicWebServer.Demo.pdb

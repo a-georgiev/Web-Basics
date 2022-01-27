@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Sasho\\.nuget\\packages\\": {}
+    "C:\\Users\\ageorgiev\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+      "projectUniqueName": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
       "projectName": "BasicWebServer.Server",
-      "projectPath": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
-      "packagesPath": "C:\\Users\\Sasho\\.nuget\\packages\\",
-      "outputPath": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\obj\\",
+      "projectPath": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+      "packagesPath": "C:\\Users\\ageorgiev\\.nuget\\packages\\",
+      "outputPath": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sasho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ageorgiev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
