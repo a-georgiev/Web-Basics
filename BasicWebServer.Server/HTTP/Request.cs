@@ -43,7 +43,23 @@ namespace BasicWebServer.Server.HTTP
 
         private static CookieCollection ParseCookies(HeaderCollection headers)
         {
-            throw new NotImplementedException();
+            var cookieCollection = new CookieCollection();
+
+            if(headers.Contains(Header.Cookie))
+            {
+                var cookieHeader = headers[Header.Cookie];
+                var allCookies = cookieHeader.Split(';');
+                foreach (var cookieText in allCookies)
+                {
+                    var cookieParts = cookieText.Split('=');
+                    var cookieName = cookieParts[0].Trim();
+                    var cookieValue = cookieParts[1].Trim();
+
+                    cookieCollection.Add(cookieName, cookieValue);
+                }
+            }
+
+            return cookieCollection;
         }
 
         private static Dictionary<string, string> ParseForm(HeaderCollection headers, string body)
