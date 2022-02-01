@@ -1,10 +1,11 @@
-﻿using BasicWebServer.Server.HTTP;
-
-namespace BasicWebServer.Server.Responses
+﻿namespace BasicWebServer.Server.Responses
 {
+    using BasicWebServer.Server.HTTP;
+    using System;
+
     public class HtmlResponse: ContentRespopnse
     {
-        public HtmlResponse(string text)
+        public HtmlResponse(string text, Action<Request, Response> preRenderAction = null)
             :base(text, ContentType.Html)
         {
 

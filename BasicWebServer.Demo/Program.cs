@@ -4,8 +4,11 @@ using BasicWebServer.Server.Responses;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace BasicWebServer.Demo
 {
@@ -27,19 +30,48 @@ namespace BasicWebServer.Demo
         {
             await DownloadSiteAsTextFile(Program.FileName,
                     new string[] { "https://judge.softuni.org", "https://softuni.org" });
-            
-            var server =  new HttpServer(routes => routes
-                .MapGet("/", new TextResponse("Text response from the server."))
-                .MapGet("/Redirect", new RedirectResponse("https://github.com/"))
-                .MapGet("/HTML", new HtmlResponse(Program.HtmlForm))
-                .MapPost("/HTML", new TextResponse("", Program.AddFormDataAction))
-                .MapGet("/Content", new HtmlResponse(Program.DownloadForm))
-                .MapPost("/Content", new TextFileResponse(Program.FileName)));
+
+            var server = new HttpServer(routes => routes
+               .MapGet("/", new TextResponse("Text response from the server."))
+               .MapGet("/Redirect", new RedirectResponse("https://github.com/"))
+               .MapGet("/HTML", new HtmlResponse(Program.HtmlForm))
+               .MapPost("/HTML", new TextResponse("", Program.AddFormDataAction))
+               .MapGet("/Content", new HtmlResponse(Program.DownloadForm))
+               .MapPost("/Content", new TextFileResponse(Program.FileName))
+               .MapGet("Cookies", new HtmlResponse("", AddCoockieAction)));
 
             await server.Start();
         }
 
+        private static void AddCoockieAction(Request request, Response response)
+        {
+            var requestHasCookies = request.Cookies.Any();
+            var body = "";
 
+            if(requestHasCookies)
+            {
+                var cookieTxt = new StringBuilder();
+                cookieTxt.Append("<table border = '1'><tr><th>Name</th><th>Value</th></tr>");
+
+                foreach (var cookie in request.Cookies)
+                {
+                    cookieTxt.Append($@"<tr><td>{HttpUtility.HtmlEncode(cookie.Name)}</td>
+                        <td>{HttpUtility.HtmlEncode(cookie.Value)}</td></tr>");
+                }
+                cookieTxt.Append("</table>");
+
+                body = cookieTxt.ToString();
+            }
+            else
+            {
+                body = "<h1>Cookie Set!</h1>";
+            }
+            if(!requestHasCookies)
+            {
+                response.Cookies.Add("My-Cookie", "My-Value");
+                response.Cookies.Add("My-Cookie-2", "My-Value-2");
+            }
+        }
         private static async Task DownloadSiteAsTextFile(string fileName, string[] urls)
         {
             var downloads = new List<Task<string>>();
