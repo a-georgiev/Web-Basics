@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "VYkZ4ewn8np9U1ImIrZ+ZQ4i/8ERfYEeLI49wS9TuBxBsd3aljxKL+WZfMCNnFzeMcEvGFXCpoWnVGB6lQuIZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+=======
+  "dgSpecHash": "JuqequGxvP3MYxFJnMWJoHdThle7E/6fiXfupmwgtMHXRWTP/b4QtWDAO3RwEkD+NTrWJ1WUXVnMLtnvD1BUAw==",
+  "success": true,
+  "projectFilePath": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+>>>>>>> 9ab3ad6c9aac44e89f6411261d295ffe007585f3
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -38,7 +38,11 @@ namespace BasicWebServer.Demo
                .MapPost("/HTML", new TextResponse("", Program.AddFormDataAction))
                .MapGet("/Content", new HtmlResponse(Program.DownloadForm))
                .MapPost("/Content", new TextFileResponse(Program.FileName))
+<<<<<<< HEAD
                .MapGet("/Cookies", new HtmlResponse("", Program.AddCoockieAction)));
+=======
+               .MapGet("Cookies", new HtmlResponse("", AddCoockieAction)));
+>>>>>>> 9ab3ad6c9aac44e89f6411261d295ffe007585f3
 
             await server.Start();
         }
@@ -71,8 +75,11 @@ namespace BasicWebServer.Demo
                 response.Cookies.Add("My-Cookie", "My-Value");
                 response.Cookies.Add("My-Cookie-2", "My-Value-2");
             }
+<<<<<<< HEAD
 
             response.Body=body;
+=======
+>>>>>>> 9ab3ad6c9aac44e89f6411261d295ffe007585f3
         }
         private static async Task DownloadSiteAsTextFile(string fileName, string[] urls)
         {
