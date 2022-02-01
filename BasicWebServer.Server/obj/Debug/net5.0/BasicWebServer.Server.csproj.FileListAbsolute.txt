@@ -22,3 +22,15 @@ D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\obj\Debug\n
 D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.dll
 D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\ref\BasicWebServer.Server.dll
 D:\Courses\Web-Basics\Basic-Web-Exc\Web-Basics\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.pdb
+C:\Users\Sasho\Desktop\Web-Basic\BasicWebServer.Server\bin\Debug\net5.0\BasicWebServer.Server.deps.json
+C:\Users\Sasho\Desktop\Web-Basic\BasicWebServer.Server\bin\Debug\net5.0\BasicWebServer.Server.dll
+C:\Users\Sasho\Desktop\Web-Basic\BasicWebServer.Server\bin\Debug\net5.0\ref\BasicWebServer.Server.dll
+C:\Users\Sasho\Desktop\Web-Basic\BasicWebServer.Server\bin\Debug\net5.0\BasicWebServer.Server.pdb
+C:\Users\Sasho\Desktop\Web-Basic\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.csproj.AssemblyReference.cache
+C:\Users\Sasho\Desktop\Web-Basic\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sasho\Desktop\Web-Basic\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.AssemblyInfoInputs.cache
+C:\Users\Sasho\Desktop\Web-Basic\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.AssemblyInfo.cs
+C:\Users\Sasho\Desktop\Web-Basic\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.csproj.CoreCompileInputs.cache
+C:\Users\Sasho\Desktop\Web-Basic\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.dll
+C:\Users\Sasho\Desktop\Web-Basic\BasicWebServer.Server\obj\Debug\net5.0\ref\BasicWebServer.Server.dll
+C:\Users\Sasho\Desktop\Web-Basic\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.pdb

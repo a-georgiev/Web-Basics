@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj": {}
+    "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\BasicWebServer.Server.csproj": {}
   },
   "projects": {
-    "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj": {
+    "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\BasicWebServer.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
         "projectName": "BasicWebServer.Server",
-        "projectPath": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+        "projectPath": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
         "packagesPath": "C:\\Users\\Sasho\\.nuget\\packages\\",
-        "outputPath": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\obj\\",
+        "outputPath": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasho\\AppData\\Roaming\\NuGet\\NuGet.Config",

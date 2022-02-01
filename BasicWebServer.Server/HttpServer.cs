@@ -30,12 +30,12 @@ namespace BasicWebServer.Server
         }
 
         public HttpServer(int port, Action<IRoutingTable> routingTable)
-            :this("192.168.1.129", port, routingTable)
+            :this("192.168.88.1", port, routingTable)
         {
         }
 
         public HttpServer(Action<IRoutingTable> routingTable)
-            : this("192.168.1.129", 8081, routingTable)
+            : this("192.168.88.1", 1488, routingTable)
         {
         }
 
