@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "if2Ivthw4D5lcye5zsy8SA9OJfaFyjy02HF4EAVcCZ7BQS3O4KQQHEDObMIhOsjP+VKY0FHIPisVRDL9Tn5j+g==",
+  "dgSpecHash": "r+fU/BNi/PT61Pa5jhFQDrvgBoYxuD4ztigXI4jFKawqhvnWDkB85g1vt26gnc3BXBOER+EKhRaMLNxrRavzgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj",
-=======
-  "dgSpecHash": "4hVg008brbgKxfAAc4IPz2rc4jC6ClvpLc0q8gcCTOAfumed0OJwUVN3mJXbCP2f/hGE2YPQpVF2jHm4SK2Slw==",
-  "success": true,
-  "projectFilePath": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj",
->>>>>>> 9ab3ad6c9aac44e89f6411261d295ffe007585f3
+  "projectFilePath": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Demo\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

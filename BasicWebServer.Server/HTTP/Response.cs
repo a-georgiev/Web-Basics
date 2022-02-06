@@ -33,11 +33,7 @@ namespace BasicWebServer.Server.HTTP
 
             foreach (var cookie in this.Cookies)
             {
-<<<<<<< HEAD
                 result.AppendLine($"{Header.SetCookie}: {cookie}");
-=======
-                result.AppendLine($"{Header.Cookie}: {cookie}");
->>>>>>> 9ab3ad6c9aac44e89f6411261d295ffe007585f3
             }
 
             result.AppendLine();

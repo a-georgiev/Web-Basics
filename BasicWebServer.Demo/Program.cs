@@ -38,18 +38,33 @@ namespace BasicWebServer.Demo
                .MapPost("/HTML", new TextResponse("", Program.AddFormDataAction))
                .MapGet("/Content", new HtmlResponse(Program.DownloadForm))
                .MapPost("/Content", new TextFileResponse(Program.FileName))
-<<<<<<< HEAD
-               .MapGet("/Cookies", new HtmlResponse("", Program.AddCoockieAction)));
-=======
-               .MapGet("Cookies", new HtmlResponse("", AddCoockieAction)));
->>>>>>> 9ab3ad6c9aac44e89f6411261d295ffe007585f3
+               .MapGet("/Cookies", new HtmlResponse("", Program.AddCoockieAction))
+               .MapGet("/Session", new TextResponse("", Program.DisplaySessioninfoAction)));
 
             await server.Start();
         }
+        private static void DisplaySessioninfoAction(Request request, Response response)
+        {
+            var sessionExist = request.Session.ContainsKey(Session.SessionCurrentDateKey);
 
+            var bodyText = String.Empty;
+
+            if(sessionExist)
+            {
+                var currentDate = request.Session[Session.SessionCurrentDateKey];
+                bodyText = $"Stored Date: {currentDate}";
+            }
+            else
+            {
+                bodyText = "Current Date Stored!";
+            }
+
+            response.Body = String.Empty;
+            response.Body += bodyText;
+        }
         private static void AddCoockieAction(Request request, Response response)
         {
-            var requestHasCookies = request.Cookies.Any();
+            var requestHasCookies = request.Cookies.Any(c=>c.Name != Session.SessionCookieName);
             var body = "";
 
             if(requestHasCookies)
@@ -75,11 +90,8 @@ namespace BasicWebServer.Demo
                 response.Cookies.Add("My-Cookie", "My-Value");
                 response.Cookies.Add("My-Cookie-2", "My-Value-2");
             }
-<<<<<<< HEAD
 
             response.Body=body;
-=======
->>>>>>> 9ab3ad6c9aac44e89f6411261d295ffe007585f3
         }
         private static async Task DownloadSiteAsTextFile(string fileName, string[] urls)
         {

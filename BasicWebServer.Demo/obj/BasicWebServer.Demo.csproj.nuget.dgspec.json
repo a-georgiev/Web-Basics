@@ -1,34 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj": {}
+    "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj": {
+    "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj",
+        "projectUniqueName": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj",
         "projectName": "BasicWebServer.Demo",
-        "projectPath": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj",
+        "projectPath": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj",
         "packagesPath": "C:\\Users\\Sasho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Demo\\obj\\",
-=======
-    "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj": {}
-  },
-  "projects": {
-    "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj",
-        "projectName": "BasicWebServer.Demo",
-        "projectPath": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj",
-        "packagesPath": "C:\\Users\\ageorgiev\\.nuget\\packages\\",
-        "outputPath": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Demo\\obj\\",
->>>>>>> 9ab3ad6c9aac44e89f6411261d295ffe007585f3
+        "outputPath": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Demo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ageorgiev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sasho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,13 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\BasicWebServer.Server.csproj": {
-                "projectPath": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\BasicWebServer.Server.csproj"
-=======
-              "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj": {
-                "projectPath": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj"
->>>>>>> 9ab3ad6c9aac44e89f6411261d295ffe007585f3
+              "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj": {
+                "projectPath": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj"
               }
             }
           }
@@ -77,32 +58,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\BasicWebServer.Server.csproj": {
+    "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+        "projectUniqueName": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
         "projectName": "BasicWebServer.Server",
-        "projectPath": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+        "projectPath": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
         "packagesPath": "C:\\Users\\Sasho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\obj\\",
-=======
-    "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
-        "projectName": "BasicWebServer.Server",
-        "projectPath": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
-        "packagesPath": "C:\\Users\\ageorgiev\\.nuget\\packages\\",
-        "outputPath": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\obj\\",
->>>>>>> 9ab3ad6c9aac44e89f6411261d295ffe007585f3
+        "outputPath": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ageorgiev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sasho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,11 +7,8 @@ namespace BasicWebServer.Server.HTTP
     {
         private readonly Dictionary<string, Cookie> cookies;
 
-<<<<<<< HEAD
         public CookieCollection()
             => this.cookies = new Dictionary<string, Cookie>();
-=======
->>>>>>> 9ab3ad6c9aac44e89f6411261d295ffe007585f3
 
         public string this[string name]
                 => this.cookies[name].Value;

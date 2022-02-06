@@ -8,27 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ageorgiev\\.nuget\\packages\\": {}
+    "C:\\Users\\Sasho\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+      "projectUniqueName": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
       "projectName": "BasicWebServer.Server",
-      "projectPath": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+      "projectPath": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
       "packagesPath": "C:\\Users\\Sasho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sasho\\Desktop\\Web-Basic\\BasicWebServer.Server\\obj\\",
-=======
-      "projectUniqueName": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
-      "projectName": "BasicWebServer.Server",
-      "projectPath": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
-      "packagesPath": "C:\\Users\\ageorgiev\\.nuget\\packages\\",
-      "outputPath": "D:\\Courses\\Web-Basics\\Basic-Web-Exc\\Web-Basics\\BasicWebServer.Server\\obj\\",
->>>>>>> 9ab3ad6c9aac44e89f6411261d295ffe007585f3
+      "outputPath": "D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ageorgiev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sasho\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -68,8 +60,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Courses\\C# Web Basics - януари 2022\\Web-Basics\\BasicWebServer.Server\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
